@@ -1,6 +1,6 @@
-/* -------------------------------- 
+/* --------------------------------
 
-Primary style
+Primary style ooo
 
 -------------------------------- */
 *, *::after, *::before {
@@ -34,7 +34,93 @@ a {
   color: transparent;
 }
 
-/* -------------------------------- 
+div.col-sm-4 #logo {
+  height: 5em;
+  width: 5em;
+  transform: translate(50%, 50%)
+}
+
+/*animation goes inside jumbotron*/
+.jumbotron {
+  z-index: 99;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#transitionBox {
+  position: relative;
+  margin: 0 auto;
+}
+
+#landing {
+  background-color: deepskyblue;
+  color: whitesmoke;
+  text-align: center;
+  height:500px;
+  margin: 0 auto;
+  display: block;
+}
+
+#titleBox {
+  position: absolute;
+  top: 80px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#welcomeBoxes {
+  position: absolute;
+  top: 300px;
+}
+
+#landing1 {
+  border-bottom-color: ghostwhite;
+  border: 3px;
+}
+#aboutus {
+  background-color: #003366;
+  color: whitesmoke;
+  text-align: center;
+  height:500px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+#data {
+  background-color: dodgerblue;
+  color: whitesmoke;
+  text-align: center;
+  height:500px;
+  margin: 0 auto;
+  display: block;
+}
+
+#team {
+  background-color: aliceblue;
+  color: darkslategrey;
+  text-align: center;
+  height:500px;
+  margin: 0 auto;
+  display: block;
+}
+
+#contact {
+  background-color: cadetblue;
+  color: whitesmoke;
+  text-align: center;
+  height:500px;
+  margin: 0 auto;
+  display: block;
+}
+
+.footer {
+  height: 100px;
+
+}
+/* --------------------------------
 
 Navigation trigger - visible on small devices only
 
@@ -97,7 +183,7 @@ Navigation trigger - visible on small devices only
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Vertical navigation
 
@@ -389,7 +475,7 @@ Vertical navigation
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Content Sections - basic style
 
@@ -451,7 +537,7 @@ Content Sections - basic style
   background: url(../../../../Downloads/vertical-fixed-navigation-2/img/cd-arrow-bottom.svg) no-repeat center center;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 no-js
 
@@ -548,7 +634,7 @@ footer p {
 
 .navbar-brand {
   padding:0 15px 0 15px;
-  margin-top:10px;
+  margin-top:0px;
 }
 
 .navbar-default {
