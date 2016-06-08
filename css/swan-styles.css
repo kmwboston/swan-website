@@ -1,3 +1,20 @@
+.col-sm-4 img {
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  border-radius:50%;
+  border-radius: 50%;
+}
+
+#iconicWord {
+  font-size: 40pt;
+  font-weight: 700;
+}
+
+.row h3 {
+.wrapper{position:relative;}
+.bottom{position:absolute; bottom:0;}
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -42,7 +59,7 @@ code {
 
 
 .bg-primary {
-  background:black;
+  background:wheat;
   color:white !important;
 }
 
