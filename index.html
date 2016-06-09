@@ -148,7 +148,7 @@
                 <a class="btn btn-default" href="/approach.html">Learn More About Our Approach</a>
             </div>
             <div class="col-sm-8">
-                <div id="container" style="min-width: 310px; height: 400px; max-width: 100%; margin: 0 auto"></div>
+                <div id="container" style="min-width: 310px; height: 400px;width: 100%; margin: 0 auto"></div>
             </div>
 
         </div>
@@ -189,19 +189,36 @@
 
 <footer class="footer">
     <div class="footer-wrapper">
-        <div class="container" style="min-height:220px;padding:50px 0">
-
+        <div class="container">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-4 general">
                     <div class="footer-heading">General Inquiries</div>
-                    <div class="footer-general"><i class="fa fa-phone fa-2x"></i>(443)-783-2480</div>
-                    <div class="footer-general"><i class="fa fa-envelope fa-2x"></i><a href="mailto:wanda@swanassetmanagement.com" class="ftr">wanda@swanassetmanagement.com</a></div>
-                    <div class="footer-general">
-                        <i class="fa fa-map-marker fa-2x"></i>
-                        SWAN Asset Management<br>
-                        Wanda Stewart, Administrative Assistant<br>
-                        P.O. Box 415<br>
-                        Pocomoke City, MD 21851
+                    <div class="footer-general row">
+                        <div class="col-xs-2 text-left">
+                            <i class="fa fa-phone fa-2x"></i>
+                        </div>
+                        <div class="col-xs-10 no-padding-left">
+                            (443)-783-2480
+                        </div>
+                    </div>
+                    <div class="footer-general row">
+                        <div class="col-xs-2 text-left">
+                            <i class="fa fa-envelope fa-2x"></i>
+                        </div>
+                        <div class="col-xs-10 no-padding-left">
+                            <a href="mailto:wanda@swanassetmanagement.com" class="ftr">wanda@swanassetmanagement.com</a>
+                        </div>
+                    </div>
+                    <div class="footer-general row">
+                        <div class="col-xs-2 text-left">
+                            <i class="fa fa-map-marker fa-2x"></i>
+                        </div>
+                        <div class="col-xs-10 no-padding-left">
+                            SWAN Asset Management<br>
+                            Wanda Stewart, Administrative Assistant<br>
+                            P.O. Box 415<br>
+                            Pocomoke City, MD 21851
+                        </div>
                     </div>
 
                 </div>
@@ -261,6 +278,7 @@
                 backgroundColor:'rgba(255, 255, 255, 0.0)',
 
             },
+            colors: ['#f1f1f1', '#325b84', '#7f99b2', '#ccd6e0'],
             title: {
                 text: '2015 Yearly Portfolio Performance',
                 x: 10,
@@ -314,7 +332,7 @@
                 }]
             },
             tooltip: {
-                valueSuffix: '°C'
+                valueSuffix: '$'
             },
             legend: {
                 borderWidth: 0,

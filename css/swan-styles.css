@@ -12,6 +12,10 @@ body {
   font-weight:300;
   color: #535f6b;
 }
+
+.no-padding-left {
+  padding-left:0px;
+}
 .footer {
   position: absolute;
   bottom: 0;
@@ -23,8 +27,17 @@ body {
 
 .footer-wrapper {
   width:100%;
-  margin:0 auto;
+  padding:0 30px;
   background:#535f6b;
+}
+
+.footer .footer-wrapper .container {
+  min-height:220px;
+  padding:50px 0;
+}
+
+.footer .footer-wrapper .general .footer-heading {
+  margin-bottom:5px;
 }
 
 .footer-heading {
@@ -32,7 +45,7 @@ body {
   font-size:12pt;
   color:white;
   padding: 0 0 2px 0;
-  border-bottom:2px solid white;
+  border-bottom:1px solid white;
 }
 .footer-text {
   font-size:9pt;
@@ -45,7 +58,11 @@ body {
   /*font-size:9pt;*/
   color:white;
   /*border-bottom:1px solid white;*/
-  padding: 8px 0 8px 0;
+  padding: 4px 0 4px 0;
+}
+
+.footer-general:first-child {
+  margin-top:10px;
 }
 
 .footer-general a {
@@ -150,6 +167,12 @@ body > .container-fluid {
   color: #fff;
   background-color: #003366;
   border-color: #325b84;
+}
+
+a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
+  color: #555;
+  text-decoration: none;
+  background-color: #f5f5f5;
 }
 
 .list-group-item {
