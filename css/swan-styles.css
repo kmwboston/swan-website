@@ -102,13 +102,25 @@ body {
 .btn-primary {
   -webkit-border-radius:0;
   -moz-border-radius:0;
-  border-radius:0;
+  border-radius:0%;
   border:1px solid #003366;
-  background:#fff;
-  color: #003366;
-
+  background:#003366;
+  color: white;
 }
 
+.navButton {
+  margin-top:22px;
+}
+
+.servicesButton {
+  margin-top: -85px;
+}
+
+.dataButton {
+  border:1px solid #fff;
+  background:#fff;
+  color: #003366;
+}
 
 /* Custom page CSS
 -------------------------------------------------- */
