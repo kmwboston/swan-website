@@ -122,6 +122,13 @@ body {
   color: #003366;
 }
 
+h3 span {
+  font-size: xx-large;
+}
+
+.alternative {
+  background-color: white;
+}
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
