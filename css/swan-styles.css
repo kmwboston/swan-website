@@ -185,10 +185,14 @@ h4.blue::-moz-selection {
 .col-sm-12 .btn:hover {
   -webkit-transform: scale(1.25, 1.25);
   transform: scale(1.25, 1.25);
+  background-color: white;
+  color: black;
 }
 
 .col-sm-12 .btn:hover::after {
   opacity: 1;
+  background-color: white;
+  color: black
 }
 
 /* Custom page CSS
