@@ -338,7 +338,7 @@ a.list-group-item, button.list-group-item {
   overflow: visible;
 }
 
-.container-fluid .jumbotron .col-sm-4 {
+.container-fluid .jumbotron .clearfix {
   background-color: rgb(231, 255, 235);
   z-index: 5;
   margin-right: -50px;
