@@ -169,7 +169,7 @@ h4.blue::-moz-selection {
 
 .col-sm-12 .btn::after {
   content: "";
-  border-radius: 2px;
+  border-radius: 0px;
   position: absolute;
   z-index: -1;
   top: 0;
@@ -185,14 +185,14 @@ h4.blue::-moz-selection {
 .col-sm-12 .btn:hover {
   -webkit-transform: scale(1.25, 1.25);
   transform: scale(1.25, 1.25);
-  background-color: white;
   color: black;
+  border-color: black;
+  border-radius: 0;
 }
 
 .col-sm-12 .btn:hover::after {
   opacity: 1;
   background-color: white;
-  color: black
 }
 
 /* Custom page CSS
