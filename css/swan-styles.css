@@ -336,17 +336,17 @@ a.list-group-item, button.list-group-item {
   padding-top: 50px;
   padding-bottom: 115px;
   overflow: visible;
+  max-height: 400px;
 }
 
-.container-fluid .jumbotron .clearfix {
+.container-fluid .jumbotron .pull-right {
   background-color: rgb(231, 255, 235);
   z-index: 5;
-  margin-right: -50px;
-  padding: 50px 15px 50px 15px;
-  position:absolute;
-  left: 67%;
-  top: 17%;
+  margin-top: 175px;
+  padding: 20px 20px 20px 20px;
+  left: 5%;
   color: black;
+  height: auto;
 }
 
 .navbar-default {
