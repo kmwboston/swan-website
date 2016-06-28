@@ -122,6 +122,79 @@ body {
   color: #003366;
 }
 
+h3 span {
+  font-size: xx-large;
+}
+
+.alternative {
+  background-color: white;
+}
+
+.aboutus .row .quoteBlock {
+  background-color: #BDEFFF;
+  height: auto;
+  z-index: 5;
+  padding: 7px 15px 7px 30px;
+  right: 4%;
+  color: black;
+}
+
+h4 {
+  line-height: 1.5;
+
+}
+
+h4.blue::selection {
+  background: #a8d1ff;
+}
+h4.blue::-moz-selection {
+  background: #a8d1ff;
+}
+
+.col-sm-12 .btn {
+  font-size: large;
+  /*box-shadow: 5px 5px lightgrey;*/
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+
+}
+.col-sm-12 .btn {
+  position: relative;
+  display: inline-block;
+  border-radius: 1px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.col-sm-12 .btn::after {
+  content: "";
+  border-radius: 0px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.col-sm-12 .btn:hover {
+  -webkit-transform: scale(1.25, 1.25);
+  transform: scale(1.25, 1.25);
+  color: black;
+  border-color: black;
+  border-radius: 0;
+}
+
+.col-sm-12 .btn:hover::after {
+  opacity: 1;
+  background-color: white;
+}
+
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
@@ -236,7 +309,21 @@ a.list-group-item, button.list-group-item {
   margin-top:40px;
 }
 .container-fluid .jumbotron {
-  background: url(../img/woods.png) no-repeat center center fixed;
+  background: url(https://static.pexels.com/photos/1826/wood-nature-sunny-forest.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*height:80vh;*/
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  color: #ffffff;
+}
+
+.container-fluid .approach {
+  background: url(http://www.hdnicewallpapers.com/Walls/Big/Mountain/Amazing_view_of_Snowy_Mountain_Rows_above_The_Clouds.jpg
+  ) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -246,7 +333,34 @@ a.list-group-item, button.list-group-item {
   -moz-border-radius:0;
   border-radius:0;
   color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 115px;
+  overflow: visible;
+  max-height: 400px;
 }
+
+.container-fluid .jumbotron .pull-right {
+  background-color: rgb(231, 255, 235);
+  z-index: 5;
+  margin-top: 175px;
+  padding: 20px 20px 20px 20px;
+  left: 5%;
+  color: black;
+  height: auto;
+}
+
+.section .row .col-sm-8 .pull-right {
+  background-color: rgb(231, 255, 235);
+  z-index: 5;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding: 20px 20px 0px 20px;
+  left: 0%;
+  color: black;
+  height: auto;
+}
+
+
 
 .navbar-default {
   background-color: #fff;  /*-------------------------////CHANGE THIS////-----------------------------*/
