@@ -110,6 +110,7 @@ body {
 
 .navButton {
   margin-top:22px;
+  box-shadow: 2px;
 }
 
 .servicesButton {
@@ -157,6 +158,17 @@ h4.blue::-moz-selection {
   /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 
 }
+
+.row .col-sm-4 .list-group .alternative {
+   background-color: white;
+   color: #003366;
+}
+
+.row .col-sm-4 .list-group .alternative:hover {
+  background-color: #003366;
+  color: white;
+}
+
 .col-sm-12 .btn {
   position: relative;
   display: inline-block;
@@ -309,7 +321,7 @@ a.list-group-item, button.list-group-item {
   margin-top:40px;
 }
 .container-fluid .jumbotron {
-  background: url(https://static.pexels.com/photos/1826/wood-nature-sunny-forest.jpg) no-repeat center center fixed;
+  background: url(https://naturesbeststudents.files.wordpress.com/2010/07/hilaryscheinuk_yosemitefalls.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -323,6 +335,23 @@ a.list-group-item, button.list-group-item {
 
 .container-fluid .approach {
   background: url(http://www.hdnicewallpapers.com/Walls/Big/Mountain/Amazing_view_of_Snowy_Mountain_Rows_above_The_Clouds.jpg
+  ) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*height:80vh;*/
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  border-radius:0;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 115px;
+  overflow: visible;
+  max-height: 400px;
+}
+.container-fluid .services {
+  background: url(https://woodhavenchronicles.files.wordpress.com/2013/02/dsc_0400.jpg
   ) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
