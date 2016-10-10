@@ -132,7 +132,7 @@ h3 span {
 }
 
 .aboutus .row .quoteBlock {
-  background-color: #BDEFFF;
+  background-color: #d8f0e2;
   height: auto;
   z-index: 5;
   padding: 7px 15px 7px 30px;
@@ -369,7 +369,7 @@ a.list-group-item, button.list-group-item {
 }
 
 .container-fluid .jumbotron .pull-right {
-  background-color: rgb(231, 255, 235);
+  background-color: #d8f0e2;
   z-index: 5;
   margin-top: 175px;
   padding: 20px 20px 20px 20px;
@@ -379,7 +379,7 @@ a.list-group-item, button.list-group-item {
 }
 
 .section .row .col-sm-8 .pull-right {
-  background-color: rgb(231, 255, 235);
+  background-color: #d8f0e2;
   z-index: 5;
   margin-top: 0px;
   margin-bottom: 30px;
