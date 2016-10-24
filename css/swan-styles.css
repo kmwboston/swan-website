@@ -138,6 +138,7 @@ h3 span {
   padding: 7px 15px 7px 30px;
   right: 4%;
   color: black;
+  box-shadow: 1px 1px 3px rgba(55, 55, 55, .59);
 }
 
 h4 {
@@ -205,6 +206,10 @@ h4.blue::-moz-selection {
 .col-sm-12 .btn:hover::after {
   opacity: 1;
   background-color: white;
+}
+
+.row .quarterlyEarnings, h1 {
+  font-weight: 600;
 }
 
 /* Custom page CSS
@@ -376,17 +381,50 @@ a.list-group-item, button.list-group-item {
   left: 5%;
   color: black;
   height: auto;
+  box-shadow: 1px 0px 5px rgba(255, 255, 255, 0.58)
 }
 
-.section .row .col-sm-8 .pull-right {
+#resourcesTab {
+  margin-top: 240px;
+}
+.section .row .col-sm-8 .col-sm-12 {
   background-color: #d8f0e2;
   z-index: 5;
   margin-top: 0px;
   margin-bottom: 30px;
-  padding: 20px 20px 0px 20px;
+  padding: 20px;
   left: 0%;
   color: black;
   height: auto;
+  box-shadow: 1px 1px 3px rgba(55, 55, 55, .59);
+
+}
+
+.swanInfoSheet {
+  background-color: #d8f0e2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: black;
+  height: auto;
+  box-shadow: 1px 1px 3px rgba(55, 55, 55, .59);
+
+}
+
+.quarteryEarnings {
+  background-color: #d8f0e2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: black;
+  height: auto;
+  box-shadow: 1px 1px 3px rgba(55, 55, 55, .59);
+
+}
+
+.row .col-sm-4, img {
+  display: inline-block !important;
+  margin-bottom: 10px;
 }
 
 
