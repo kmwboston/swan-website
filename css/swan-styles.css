@@ -208,9 +208,6 @@ h4.blue::-moz-selection {
   background-color: white;
 }
 
-.row .quarterlyEarnings, h1 {
-  font-weight: 600;
-}
 
 /* Custom page CSS
 -------------------------------------------------- */
@@ -411,14 +408,26 @@ a.list-group-item, button.list-group-item {
 
 }
 
-.quarteryEarnings {
-  background-color: #d8f0e2;
+.quarterlyEarnings {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
-  color: black;
+  color: white !important;
+  background-color: #003366 !important;
   height: auto;
   box-shadow: 1px 1px 3px rgba(55, 55, 55, .59);
+
+}
+.row .quarterlyEarnings h1 {
+  font-weight: 600;
+  border-bottom: 1px solid white;
+}
+
+
+}
+.quarterlyEarnings, .btn {
+  background-color: white;
+  color: #003366;
 
 }
 
