@@ -8,7 +8,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  font-family: "Open Sans", "Helvetica", Serif ;
+  font-family: "Open Sans", "Helvetica Neue", Serif ;
   font-weight:300;
   color: #535f6b;
 }
@@ -27,8 +27,15 @@ body {
 
 .footer-wrapper {
   width:100%;
-  padding:0 30px;
+  padding:50px 30px;
   background:#535f6b;
+
+}
+
+.footer-banner {
+  padding:20px;
+  background: #3A424A;
+  color: white;
 }
 
 .footer .footer-wrapper .container {
@@ -102,7 +109,7 @@ body {
 .btn-primary {
   -webkit-border-radius:0;
   -moz-border-radius:0;
-  border-radius:0%;
+  border-radius:0;
   border:1px solid #003366;
   background: white;
   color: #003366;
@@ -132,7 +139,7 @@ h3 span {
 }
 
 .aboutus .row .quoteBlock {
-  background-color: #d8f0e2;
+  background-color: #f1f1f1;
   height: auto;
   z-index: 5;
   padding: 7px 15px 7px 30px;
@@ -151,18 +158,6 @@ h4.blue::selection {
 }
 h4.blue::-moz-selection {
   background: #a8d1ff;
-}
-
-.divider {
-  height:50px;
-  width:100%;
-  background: #003366;
-}
-.col-sm-12 .btn {
-  font-size: large;
-  /*box-shadow: 5px 5px lightgrey;*/
-  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-
 }
 
 .row .col-sm-4 .list-group .alternative {
@@ -208,6 +203,10 @@ body > .container-fluid {
   color: #fff;
   margin-top:60px;
   margin-bottom:30px;
+}
+
+.jumbotron-main .index-nav h2 {
+  font-size:25px;
 }
 
 .index-nav i {
@@ -283,11 +282,15 @@ a.list-group-item, button.list-group-item {
 .wrapper{position:relative;}
 .bottom{position:absolute; bottom:0;}
 
-.jumbotron .col-lg-12 h2 {
+.jumbotron-main h2 {
   font-size: 60px;
 }
 
-.jumbotron .col-lg-12 p {
+.jumbotron-main h1 {
+  margin-bottom:0;
+}
+
+.jumbotron-main p {
   font-size: 15px;
 }
 
@@ -295,6 +298,7 @@ a.list-group-item, button.list-group-item {
   margin-bottom:20px;
   margin-top:40px;
 }
+
 .container-fluid .jumbotron {
   background: url('../img/snowy-mountain.png') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -309,44 +313,42 @@ a.list-group-item, button.list-group-item {
   margin-bottom:0;
 }
 
-.container-fluid .approach {
-  background: url(http://www.hdnicewallpapers.com/Walls/Big/Mountain/Amazing_view_of_Snowy_Mountain_Rows_above_The_Clouds.jpg
-  ) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  /*height:80vh;*/
-  -webkit-border-radius:0;
-  -moz-border-radius:0;
-  border-radius:0;
-  color: #ffffff;
-  padding-top: 50px;
-  padding-bottom: 115px;
-  overflow: visible;
-  max-height: 400px;
+.container-fluid .jumbotron-main {
+  min-height:500px;
+  height:100vh;
 }
-.container-fluid .services {
-  background: url(https://woodhavenchronicles.files.wordpress.com/2013/02/dsc_0400.jpg
-  ) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  /*height:80vh;*/
-  -webkit-border-radius:0;
-  -moz-border-radius:0;
-  border-radius:0;
-  color: #ffffff;
-  padding-top: 50px;
-  padding-bottom: 115px;
-  overflow: visible;
-  max-height: 400px;
-  margin-bottom: 0px;
+
+.container-fluid .jumbotron-approach {
+  min-height:500px;
+  height:100vh;
+}
+.container-fluid .jumbotron-resources {
+  min-height:300px;
+  height:300px;
+}
+
+.container-fluid .jumbotron-resources h1 {
+  margin-top:60px;
+}
+
+.container-fluid .jumbotron-contactus {
+
+}
+
+.container-fluid .jumbotron-contactus h1 {
+  margin:60px 0;
+}
+
+.container-fluid .jumbotron-contactus .panel-heading h1 {
+  font-size:30px;
+}
+
+.container-fluid .jumbotron-contactus .panel-body p {
+  font-size:14px;
 }
 
 .container-fluid .jumbotron .pull-right {
-  background-color: #d8f0e2;
+  background-color: #f1f1f1;
   z-index: 5;
   margin-top: 175px;
   padding: 20px 20px 20px 20px;
@@ -388,10 +390,10 @@ a.list-group-item, button.list-group-item {
   /*box-shadow: 1px 1px 3px rgba(55, 55, 55, .59);*/
 
 /*}*/
-.row .col-sm-4, img {
-  display: inline-block !important;
-  margin-bottom: 10px;
-}
+/*.row .col-sm-4, img {*/
+  /*display: inline-block !important;*/
+  /*margin-bottom: 10px;*/
+/*}*/
 
 
 /*.swanInfoSheet {*/
