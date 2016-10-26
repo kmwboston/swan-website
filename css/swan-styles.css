@@ -390,7 +390,7 @@ a.list-group-item, button.list-group-item {
   margin-top: 0px;
   margin-bottom: 30px;
   padding: 20px;
-  left: 0%;
+  left: 0;
   color: black;
   height: auto;
   box-shadow: 1px 1px 3px rgba(55, 55, 55, .59);
@@ -424,7 +424,6 @@ a.list-group-item, button.list-group-item {
 }
 
 
-}
 .quarterlyEarnings, .btn {
   background-color: white;
   color: #003366;
@@ -606,4 +605,16 @@ a.list-group-item, button.list-group-item {
   }
 
 
+}
+
+.data .col-sm-8 {
+  position: relative;
+}
+.se-bio {
+  position: absolute;
+  background: #003366;
+  bottom:40px;
+  right:20px;
+  width:70%;
+  padding:10px 10px 150px 10px;
 }
