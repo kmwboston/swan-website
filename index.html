@@ -38,7 +38,6 @@
 
 <body>
 
-
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid" style="padding:0 40px;">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -161,16 +160,23 @@
             <div class="col-sm-4">
                 <h2>Explore Our Products</h2>
                 <div class="list-group">
-                    <a href="#" class="list-group-item active traditional">U.S. Select Equity <i class="fa fa-angle-right"></i></a>
-                    <a href="#" class="list-group-item traditional">U.S. Select Income<i class="fa fa-angle-right"></i></a>
-                    <a href="#" class="list-group-item traditional">Select International ADR<i class="fa fa-angle-right"></i></a>
-                    <a href="#" class="list-group-item alternative">U.S. Hedged Equity<i class="fa fa-angle-right"></i></a>
-                    <a href="#" class="list-group-item alternative">Hedged International ADR<i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="list-group-item select-equity">U.S. Select Equity <i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="list-group-item select-income">U.S. Select Income<i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="list-group-item int-adr">Select International ADR<i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="list-group-item hedged-equity">U.S. Hedged Equity<i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="list-group-item hedged-adr">Hedged International ADR<i class="fa fa-angle-right"></i></a>
                 </div>
                 <a class="btn btn-default dataButton" href="approach.html">Learn More About Our Approach</a>
             </div>
             <div class="col-sm-8">
                 <div id="container" style="min-width: 310px; height: 400px;width: 100%; margin: 0 auto"></div>
+                <div class="se-bio">
+                    Swan was established by Steve Smith, CFA. Steve is the lead manager and the architect of the investment methodology for all Swan Strategies,
+                    organized to be flexible and responsive. Our investment approach allows us to meet
+                    your specific needs and individual preferences, while recognizing the differing objectives of
+                    taxable and tax-exempt investors. We align our interests with yours by investing our personal
+                    assets in the same strategies we offer to clients.
+                </div>
             </div>
 
         </div>
@@ -339,6 +345,7 @@
         $('#container').highcharts({
             chart: {
                 backgroundColor:'rgba(255, 255, 255, 0.0)',
+                type: 'column'
 
             },
             colors: ['#f1f1f1', '#325b84', '#7f99b2', '#ccd6e0'],
@@ -359,8 +366,7 @@
 //                }
 //            },
             xAxis: {
-                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-                    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                categories: ['U.S. Select Equity', 'U.S. Select Income', 'Select International ADR', 'U.S. Hedged Equity', 'Hedged International ADR'],
                 labels: {
                     style: {
                         color: '#FFF',
@@ -375,7 +381,7 @@
             },
             yAxis: {
                 title: {
-                    text: 'Dollars',
+                    text: 'Return (in $)',
                     style: {
                         color: '#FFF',
                         font: '300 16px "Helvetica Neue", Verdana, sans-serif'
@@ -408,17 +414,17 @@
                 enabled: false
             },
             series: [{
-                name: 'Hedge Funds',
-                data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+                name: 'Swan',
+                data: [100,0,0,0,0],
+                index: 2
             }, {
-                name: 'Bonds',
-                data: [0.2, 0.8, 5.7, 11.3, 17.0, 22.0, 24.8, 24.1, 20.1, 14.1, 8.6, 2.5]
+                name: 'S&P 500',
+                data: [110,0,0,0,0],
+                index:1
             }, {
-                name: 'Stocks',
-                data: [0.9, 0.6, 3.5, 8.4, 13.5, 17.0, 18.6, 17.9, 14.3, 9.0, 3.9, 1.0]
-            }, {
-                name: 'International',
-                data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+                name: 'S&P ADR',
+                data: [140,0,0,0,0],
+                index:3
             }]
         });
     });
