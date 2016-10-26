@@ -153,7 +153,6 @@ h4.blue::-moz-selection {
   background: #a8d1ff;
 }
 
-<<<<<<< Temporary merge branch 1
 .divider {
   height:50px;
   width:100%;
@@ -166,8 +165,6 @@ h4.blue::-moz-selection {
 
 }
 
-=======
->>>>>>> Temporary merge branch 2
 .row .col-sm-4 .list-group .alternative {
    background-color: white;
    color: #003366;
@@ -362,8 +359,7 @@ a.list-group-item, button.list-group-item {
 #resourcesTab {
   margin-top: 240px;
 }
-<<<<<<< Temporary merge branch 1
-=======
+
 .section .row .col-sm-8 .col-sm-12 {
   background-color: #d8f0e2;
   z-index: 5;
@@ -374,7 +370,7 @@ a.list-group-item, button.list-group-item {
   color: black;
   height: auto;
   box-shadow: 1px 1px 3px rgba(55, 55, 55, .59);
->>>>>>> Temporary merge branch 2
+}
 
 .panel-quote {
   background: #DAE2E9;
@@ -437,8 +433,6 @@ a.list-group-item, button.list-group-item {
   margin-bottom: 10px;
 }
 
-<<<<<<< Temporary merge branch 1
-=======
 
 .iframe-container {
   padding-bottom: 80%;
@@ -499,7 +493,6 @@ a.list-group-item, button.list-group-item {
   background-color: #fff;
 }
 
->>>>>>> Temporary merge branch 2
 .header-signup-button {
   color:#fff !important;
   padding-top:15px;
@@ -624,7 +617,6 @@ a.list-group-item, button.list-group-item {
     /*margin-top:30px;*/
   }
 
-<<<<<<< Temporary merge branch 1
 }
 
 .data .col-sm-8 {
@@ -637,7 +629,5 @@ a.list-group-item, button.list-group-item {
   right:20px;
   width:75%;
   padding:10px 10px 150px 10px;
-=======
 
->>>>>>> Temporary merge branch 2
 }
