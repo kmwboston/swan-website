@@ -8,7 +8,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  font-family: "Helvetica Neue", "Helvetica", Serif ;
+  font-family: "Open Sans", "Helvetica", Serif ;
   font-weight:300;
   color: #535f6b;
 }
@@ -153,6 +153,11 @@ h4.blue::-moz-selection {
   background: #a8d1ff;
 }
 
+.divider {
+  height:50px;
+  width:100%;
+  background: #003366;
+}
 .col-sm-12 .btn {
   font-size: large;
   /*box-shadow: 5px 5px lightgrey;*/
@@ -232,7 +237,7 @@ body > .container-fluid {
 /*}*/
 
 .index-nav {
-  color: #ffffff;
+  color: #fff;
   margin-top:60px;
   margin-bottom:30px;
 }
@@ -323,7 +328,7 @@ a.list-group-item, button.list-group-item {
   margin-top:40px;
 }
 .container-fluid .jumbotron {
-  background: url(https://naturesbeststudents.files.wordpress.com/2010/07/hilaryscheinuk_yosemitefalls.jpg) no-repeat center center fixed;
+  background: url('../img/snowy-mountain.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -333,6 +338,7 @@ a.list-group-item, button.list-group-item {
   -moz-border-radius: 0;
   border-radius: 0;
   color: #ffffff;
+  margin-bottom:0;
 }
 
 .container-fluid .approach {
@@ -384,18 +390,23 @@ a.list-group-item, button.list-group-item {
 #resourcesTab {
   margin-top: 240px;
 }
-.section .row .col-sm-8 .col-sm-12 {
-  background-color: #d8f0e2;
-  z-index: 5;
-  margin-top: 0px;
-  margin-bottom: 30px;
-  padding: 20px;
-  left: 0;
-  color: black;
-  height: auto;
-  box-shadow: 1px 1px 3px rgba(55, 55, 55, .59);
 
+.panel-quote {
+  background: #DAE2E9;
+  padding:15px;
 }
+/*.section .row .col-sm-8 .col-sm-12 {*/
+  /*background-color: #d8f0e2;*/
+  /*z-index: 5;*/
+  /*margin-top: 0px;*/
+  /*margin-bottom: 30px;*/
+  /*padding: 20px;*/
+  /*left: 0;*/
+  /*color: black;*/
+  /*height: auto;*/
+  /*box-shadow: 1px 1px 3px rgba(55, 55, 55, .59);*/
+
+/*}*/
 
 .swanInfoSheet {
   background-color: #d8f0e2;
@@ -435,52 +446,6 @@ a.list-group-item, button.list-group-item {
   margin-bottom: 10px;
 }
 
-
-
-.navbar-default {
-  background-color: #fff;  /*-------------------------////CHANGE THIS////-----------------------------*/
-  -webkit-transition: all .35s;
-  -moz-transition: all .35s;
-  transition: all .35s;
-  border:0;
-}
-
-.navbar-default .navbar-header .navbar-brand {
-  /*text-transform: uppercase;*/
-  /*font-family: 'Ek Mukta','Helvetica Neue',Arial,sans-serif;*/
-  /*font-weight: 700;*/
-  color: #849CA3;  /*-------------------------////CHANGE THIS////-----------------------------*/
-}
-
-.navbar-default .navbar-header .navbar-brand:hover,
-.navbar-default .navbar-header .navbar-brand:focus {
-  color: #eb3812;  /*-------------------------////CHANGE THIS////-----------------------------*/
-}
-
-.navbar-default .nav > li>a,
-.navbar-default .nav>li>a:focus {
-  /*text-transform: uppercase;*/
-  font-size: 18px;
-  /*font-weight: 700;*/
-  color: #222;  /*-------------------------////CHANGE THIS////-----------------------------*/
-}
-
-.navbar-default .nav > li>a:hover,
-.navbar-default .nav>li>a:focus:hover {
-  color: #849CA3;  /*-------------------------////CHANGE THIS////-----------------------------*/
-}
-
-.navbar-default .nav > li.active>a,
-.navbar-default .nav>li.active>a:focus {
-  color: #849CA3 !important;  /*-------------------------////CHANGE THIS////-----------------------------*/
-  background-color: #fff;
-}
-
-.navbar-default .nav > li.active>a:hover,
-.navbar-default .nav>li.active>a:focus:hover {
-  background-color: #fff;
-}
-
 .header-signup-button {
   color:#fff !important;
   padding-top:15px;
@@ -515,6 +480,7 @@ a.list-group-item, button.list-group-item {
   .navbar-default .nav > li>a,
   .navbar-default .nav>li>a:focus {
     color: #333;
+    font-size: 18px;
   }
 
   .navbar-default .nav > li>a:hover,
@@ -604,7 +570,6 @@ a.list-group-item, button.list-group-item {
     /*margin-top:30px;*/
   }
 
-
 }
 
 .data .col-sm-8 {
@@ -615,6 +580,6 @@ a.list-group-item, button.list-group-item {
   background: #003366;
   bottom:40px;
   right:20px;
-  width:70%;
+  width:75%;
   padding:10px 10px 150px 10px;
 }
