@@ -8,7 +8,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  font-family: "Helvetica Neue", "Helvetica", Serif ;
+  font-family: "Open Sans", "Helvetica", Serif ;
   font-weight:300;
   color: #535f6b;
 }
@@ -153,6 +153,18 @@ h4.blue::-moz-selection {
   background: #a8d1ff;
 }
 
+.divider {
+  height:50px;
+  width:100%;
+  background: #003366;
+}
+.col-sm-12 .btn {
+  font-size: large;
+  /*box-shadow: 5px 5px lightgrey;*/
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+
+}
+
 .row .col-sm-4 .list-group .alternative {
    background-color: white;
    color: #003366;
@@ -193,7 +205,7 @@ body > .container-fluid {
 /*}*/
 
 .index-nav {
-  color: #ffffff;
+  color: #fff;
   margin-top:60px;
   margin-bottom:30px;
 }
@@ -284,7 +296,7 @@ a.list-group-item, button.list-group-item {
   margin-top:40px;
 }
 .container-fluid .jumbotron {
-  background: url(https://naturesbeststudents.files.wordpress.com/2010/07/hilaryscheinuk_yosemitefalls.jpg) no-repeat center center fixed;
+  background: url('../img/snowy-mountain.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -294,6 +306,7 @@ a.list-group-item, button.list-group-item {
   -moz-border-radius: 0;
   border-radius: 0;
   color: #ffffff;
+  margin-bottom:0;
 }
 
 .container-fluid .approach {
@@ -357,7 +370,22 @@ a.list-group-item, button.list-group-item {
   height: auto;
   box-shadow: 1px 1px 3px rgba(55, 55, 55, .59);
 
+.panel-quote {
+  background: #DAE2E9;
+  padding:15px;
 }
+/*.section .row .col-sm-8 .col-sm-12 {*/
+  /*background-color: #d8f0e2;*/
+  /*z-index: 5;*/
+  /*margin-top: 0px;*/
+  /*margin-bottom: 30px;*/
+  /*padding: 20px;*/
+  /*left: 0;*/
+  /*color: black;*/
+  /*height: auto;*/
+  /*box-shadow: 1px 1px 3px rgba(55, 55, 55, .59);*/
+
+/*}*/
 
 .swanInfoSheet {
   background-color: #f1f1f1;
@@ -497,6 +525,7 @@ a.list-group-item, button.list-group-item {
   .navbar-default .nav > li>a,
   .navbar-default .nav>li>a:focus {
     color: #333;
+    font-size: 18px;
   }
 
   .navbar-default .nav > li>a:hover,
@@ -586,5 +615,16 @@ a.list-group-item, button.list-group-item {
     /*margin-top:30px;*/
   }
 
+}
 
+.data .col-sm-8 {
+  position: relative;
+}
+.se-bio {
+  position: absolute;
+  background: #003366;
+  bottom:40px;
+  right:20px;
+  width:75%;
+  padding:10px 10px 150px 10px;
 }
