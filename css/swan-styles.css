@@ -139,13 +139,14 @@ h3 span {
 }
 
 .aboutus .row .quoteBlock {
-  background-color: #f1f1f1;
+  /*background-color: #f1f1f1;*/
+  background-color: transparent;
   height: auto;
   z-index: 5;
   padding: 7px 15px 7px 30px;
-  right: 4%;
+  /*right: 4%;*/
   color: black;
-  box-shadow: 1px 1px 3px rgba(55, 55, 55, .59);
+  /*box-shadow: 1px 1px 3px rgba(55, 55, 55, .59);*/
 }
 
 h4 {
@@ -195,14 +196,55 @@ body > .container-fluid {
   padding-left: 15px;
 }
 
-/*code {*/
-  /*font-size: 80%;*/
-/*}*/
+/*this is to control where the anchors to jump to adjusting for
+the height of the fixed navbar - homepage only*/
+#whatWeDo {
+   padding-top: 155px;
+   margin-top: -155px;
+ }
+#explore {
+  padding-top: 155px;
+  margin-top: -155px;
+  margin-bottom: 115px;
+}
+#ourTeam {
+   padding-top: 135px;
+   margin-top: -135px;
+ }
+
+
 
 .index-nav {
-  color: #fff;
-  margin-top:60px;
+  color: #ff=f;
+  margin-top:30px;
   margin-bottom:30px;
+}
+
+#mainNav {
+  height: 100px;
+}
+
+#mainNav a {
+  font-size: 1.5em;
+
+}
+
+/*this is to change nav bar link spacing to conform
+with new logo size*/
+@media (min-width: 768px) {
+  .navbar-left > li > a {
+    padding-top: 40px !important;
+  }
+
+  #mainNav .btn-primary {
+    margin-top: 25px;
+    border: 2px solid #003366;
+  }
+}
+
+
+.jumbotron-main {
+  padding-top: 20px;
 }
 
 .jumbotron-main .index-nav h2 {
@@ -300,7 +342,7 @@ a.list-group-item, button.list-group-item {
 }
 
 .container-fluid .jumbotron {
-  background: url('../img/snowy-mountain.png') no-repeat center center fixed;
+  background: url('../img/flipped_snowy-mountain.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -347,15 +389,16 @@ a.list-group-item, button.list-group-item {
   font-size:14px;
 }
 
-.container-fluid .jumbotron .pull-right {
-  background-color: #f1f1f1;
+.container-fluid .jumbotron .text-left {
+  background-color: transparent;
   z-index: 5;
-  margin-top: 6em;
+  margin-top: 3em;
   padding: 15px;
   left: 5%;
-  color: black;
+  color: white;
   height: auto;
-  box-shadow: 1px 0px 5px rgba(255, 255, 255, 0.58)
+  font-weight: 800;
+  /*box-shadow: 1px 0px 5px rgba(255, 255, 255, 0.58)*/
 }
 
 #resourcesTab {
