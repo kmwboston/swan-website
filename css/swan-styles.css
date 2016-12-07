@@ -106,6 +106,8 @@ body {
   color: white;
 }
 
+
+
 .btn-primary {
   -webkit-border-radius:0;
   -moz-border-radius:0;
@@ -155,10 +157,10 @@ h4 {
 }
 
 h4.blue::selection {
-  background: #a8d1ff;
+  background: #003366;
 }
 h4.blue::-moz-selection {
-  background: #a8d1ff;
+  background: #003366;
 }
 
 .row .col-sm-4 .list-group .alternative {
@@ -279,7 +281,7 @@ with new logo size*/
   z-index: 2;
   color: #fff;
   background-color: #003366;
-  border-color: #325b84;
+  border-color: #003366;
 }
 
 a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
@@ -394,7 +396,7 @@ a.list-group-item, button.list-group-item {
   z-index: 5;
   margin-top: 3em;
   padding: 15px;
-  left: 5%;
+  /*left: 5%;*/
   color: white;
   height: auto;
   font-weight: 800;
@@ -616,7 +618,7 @@ a.list-group-item, button.list-group-item {
   }
 
   .signup-btn {
-    background: cornflowerblue;
+    background: #003366;
     color: #fff !important;
   }
 }
