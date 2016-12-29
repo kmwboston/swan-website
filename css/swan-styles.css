@@ -334,6 +334,10 @@ a.list-group-item, button.list-group-item {
   margin-bottom:0;
 }
 
+.jumbotron-main h4 {
+  font-size:13px;
+}
+
 .jumbotron-main p {
   font-size: 15px;
 }
@@ -671,12 +675,13 @@ a.list-group-item, button.list-group-item {
 .data .col-sm-8 {
   position: relative;
 }
-.se-bio {
-  position: absolute;
-  background: #003366;
-  bottom:40px;
-  right:20px;
-  width:75%;
-  padding:10px 10px 150px 10px;
+/*.se-bio {*/
+  /*position: absolute;*/
+  /*background: #003366;*/
+  /*bottom:40px;*/
+  /*right:20px;*/
+  /*width:75%;*/
+  /*top: 0;*/
+  /*padding:10px 10px 10px 10px;*/
 
-}
+/*}*/
