@@ -335,7 +335,7 @@ a.list-group-item, button.list-group-item {
 }
 
 .jumbotron-main h4 {
-  font-size:13px;
+  font-size: 20px;
 }
 
 .jumbotron-main p {
@@ -363,16 +363,25 @@ a.list-group-item, button.list-group-item {
 
 .container-fluid .jumbotron-main {
   min-height:500px;
-  height:100vh;
+  max-height:600px;
+  height:90vh;
+
 }
 
 .container-fluid .jumbotron-approach {
   min-height:500px;
-  height:80vh;
+  max-height:600px;
+  height:90vh;
 }
+
+.container-fluid .jumbotron-approach h3 {
+  font-size:20px;
+}
+
 .container-fluid .jumbotron-resources {
-  min-height:300px;
-  height:300px;
+  min-height:500px;
+  max-height:600px;
+  height:90vh;
 }
 
 .container-fluid .jumbotron-resources h1 {
